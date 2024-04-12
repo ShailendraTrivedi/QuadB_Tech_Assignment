@@ -41,4 +41,4 @@ app.patch("/tasks/:id", updateTask);
 app.delete("/tasks/:id", deleteTask);
 
 // Start Server
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT);
